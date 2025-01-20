@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #3e2a47;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Intro Section */
+.intro {
+    padding: 60px 0;
+    background-color: #e5e1e8;
+}
+
+.intro h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Products Section */
+.products {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.product-category {
+    margin-bottom: 30px;
+}
+
+.product-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.product-category p {
+    font-size: 1.1rem;
+}
+
+/* Gift Section */
+.gift {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+}
+
+.gift h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gift p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Subscribe Section */
+.subscribe {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #3e2a47;
+    color: white;
+}
+
+.subscribe h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.subscribe-btn {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    background-color: #bf8c59;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #9f703e;
+}
+
+/* Footer Section */
+footer {
+    background-color: #3e2a47;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
